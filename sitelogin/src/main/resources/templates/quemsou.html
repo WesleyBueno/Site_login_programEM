@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+    <Head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<h1 style="text-align: center;">Quem sou</h1>
+<div class="Eu">
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <img src="/Img/80620906_1218830298313545_1512504133792301056_o.jpg" width="250" height="250" alt="Perfil">
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+</div>
+
+<br>
+<style>
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+    }
+    .Eu{
+        padding-left: 10px;
+    }
+</style>
+    </Head>
+    <body>
+
+        <style>
+            p{
+                color: ghostwhite;
+
+            } h1{
+                color: gold;
+            }
+            body{
+                background-color: #3469a5;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 20px;
+            }
+            img{
+                border-style: groove;
+                border-color: gold;
+                border-radius: 5px;
+            
+            }
+
+        </style>
+
+      <br>
+<p style="font-family: Georgia, 'Times New Roman', Times, serif;text-align: center;">Meu nome é Wesley Bueno, tenho 18 anos, atualmente estudante com rumo ao ingresso a faculdade de engenharia biomedica.</p>
+<p style="font-family: Georgia, 'Times New Roman', Times, serif;text-align: center;">Sangue de artista corre em minhas veias, juntamente com muita curiosidade e vontade de criar. Juntando esses dois fatos
+se resume o que eu quero para minha vida "criar de maneira criativa", no caso ser cientista.
+</p>
+<br>
+<div class="Apresentação">
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <img src="/Img/Icloc.jpg" width="300" height="300">
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+</div>
+
+<br>
+<br>
+<h1 style="text-align: center;">Amante do Halloween</h1>
+<p style="text-align: center;">Desde sempre amo o Halloween, todo o contexto de se fantasiar pra mim e algo muito divertido
+ e empolgante, pra mim é como um segundo aniversário.
+</p>
+<div class="Halloween">
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="/Img/Teatro.jpg" width="200" height="250">
+        </div>
+        <div class="col-sm-4">
+            <img src="/Img/espelho.jpg" width="300" height="250">
+        </div>
+        <div class="col-sm-4">
+            <img src="/Img/lucifer.jpg" width="300" height="250">
+        </div>
+    </div>
+</div>
+
+
+
+<br>
+<br>
+
+<h1 style="text-align: center;">Amigos</h1>
+<p style="text-align: center;">Eu amo fazer amigos e principalmente estar com eles, sao quem me apoiam e me fazem feliz.
+</p>
+<div class="Amigos">
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="/Img/churras.jpg" width="300" height="250">
+        </div>
+        <div class="col-sm-4">
+            <img src="/Img/serie.jpg" width="300" height="250">
+        </div>
+        <div class="col-sm-4">
+            <img src="/Img/pijama.jpg" width="300" height="250">
+        </div>
+    </div>
+    <form method="post" th:action="@{/logout}">
+        <button type="submit">Sair</button>
+    
+</div>
+
+<style>
+    .Amigos{
+        padding-left: 150px;
+    }
+    .Halloween{
+        padding-left: 150px;
+    }
+    .Apresentação{
+        padding-left: 150px;
+    }
+    .Eu{
+        padding-left: 150px;
+    }
+</style>
+
+
+
+
+    </body>
+</html>

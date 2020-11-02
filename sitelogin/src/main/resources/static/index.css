@@ -1,0 +1,21 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+body{
+    background-color: #0f2641;
+}
+h1{
+font-family:'Times New Roman', Times, serif;
+color: rgb(20, 230, 230);
+text-align: center;
+}
+
+.Menu-visual{
+    padding-right:150px;
+}
+.Menu-textutal{
+    padding-left:150px;
+}
